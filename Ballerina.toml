@@ -1,8 +1,8 @@
 [package]
-org = "RuwanLinton"
-name = "ItemCatalogue"
+org = "BlinderVision"
+name = "ItemService"
 version = "1.0.0"
-export = ["ItemCatalogue"]
+export = ["ItemService"]
 distribution = "2201.3.1"
 
 [build-options]

@@ -1,0 +1,14 @@
+[package]
+org = "RuwanLinton"
+name = "ItemCatalogue"
+version = "1.0.0"
+export = ["ItemCatalogue"]
+distribution = "2201.3.1"
+
+[build-options]
+observabilityIncluded = true
+
+[[platform.java11.dependency]]
+groupId = "mysql"
+artifactId = "mysql-connector-java"
+version = "8.0.26"

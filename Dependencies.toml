@@ -7,8 +7,8 @@
 dependencies-toml-version = "2"
 
 [[package]]
-org = "RuwanLinton"
-name = "ItemCatalogue"
+org = "BlinderVision"
+name = "ItemService"
 version = "1.0.0"
 dependencies = [
 	{org = "ballerina", name = "http"},
@@ -20,7 +20,7 @@ dependencies = [
 	{org = "ballerinax", name = "mysql.driver"}
 ]
 modules = [
-	{org = "RuwanLinton", packageName = "ItemCatalogue", moduleName = "ItemCatalogue"}
+	{org = "BlinderVision", packageName = "ItemService", moduleName = "ItemService"}
 ]
 
 [[package]]

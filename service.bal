@@ -364,7 +364,7 @@ isolated function addOrderRecord(OrderRecord orRec) returns OrderRecord|error {
     id: "ItemService-10f2872b-1759-4573-ac6b-fed5f46fd849"
 }
 
-listener http:Listener httpListener = check new (9000);
+// listener http:Listener httpListener = check new (9000);
 
 // service / on new graphql:Listener(httpListener) {
 

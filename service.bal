@@ -5,11 +5,11 @@ import ballerina/http;
 import ballerina/log;
 import ballerina/sql;
 
-configurable string USER = ?;
-configurable string PASSWORD = ?;
-configurable string HOST = ?;
-configurable int PORT = ?;
-configurable string DATABASE = ?;
+configurable string USER1 = ?;
+configurable string PASSWORD1 = ?;
+configurable string HOST1 = ?;
+configurable int PORT1 = ?;
+configurable string DATABASE1 = ?;
 
 public type Item record {|
     @sql:Column {name: "id"}
@@ -152,7 +152,7 @@ public distinct service class StockDetailsData {
 }
 
 final mysql:Client dbClient = check new (
-    host = HOST, user = USER, password = PASSWORD, port = PORT, database = DATABASE, connectionPool = {maxOpenConnections: 3}
+    host = HOST1, user = USER1, password = PASSWORD1, port = PORT1, database = DATABASE1, connectionPool = {maxOpenConnections: 3}
 );
 
 isolated function getItems() returns Item[]|error {

@@ -426,7 +426,7 @@ public type OrderContent record {|
     decimal totalAmount;
 |};
 
-service /cart on httpListener {
+service /cart on new http:Listener(9000) {
     resource function get .() returns string {
         return "Cart Service";
     }

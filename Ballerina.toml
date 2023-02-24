@@ -2,7 +2,7 @@
 org = "BlinderVision"
 name = "ItemService"
 version = "1.0.0"
-export = ["ItemService"]
+# export = ["ItemService"]
 distribution = "2201.3.1"
 
 [build-options]

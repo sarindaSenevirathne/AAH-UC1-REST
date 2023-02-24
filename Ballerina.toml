@@ -3,7 +3,7 @@ org = "BlinderVision"
 name = "ItemService"
 version = "1.0.0"
 # export = ["ItemService"]
-distribution = "2201.3.1"
+distribution = "2201.3.2"
 
 [build-options]
 observabilityIncluded = true

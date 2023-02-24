@@ -1,6 +1,6 @@
 [package]
-org = "BlinderVision"
-name = "ItemService"
+# org = "BlinderVision"
+# name = "ItemService"
 version = "1.0.0"
 # export = ["ItemService"]
 distribution = "2201.3.2"

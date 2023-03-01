@@ -1,5 +1,5 @@
 [package]
-# org = "BlinderVision"
+org = "wso2cs"
 # name = "ItemService"
 version = "1.0.0"
 # export = ["ItemService"]

@@ -1,6 +1,6 @@
 [package]
 org = "wso2cs"
-# name = "ItemService"
+name = "ItemCatalogue"
 version = "1.0.0"
 # export = ["ItemService"]
 distribution = "2201.3.2"
